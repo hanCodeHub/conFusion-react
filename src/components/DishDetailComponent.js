@@ -25,7 +25,7 @@ class DishDetail extends React.Component {
                     <ul className="list-unstyled">
                         {comments.map((comment) => {
                             return (
-                                <li>
+                                <li key={comment.id}>
                                     <p>{comment.comment}</p>
                                     <p>--{comment.author}, {comment.date}</p>
                                 </li>  
