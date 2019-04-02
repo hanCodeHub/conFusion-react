@@ -16,7 +16,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
     }
 
     const RenderComments = ({ comments }) => {
-        if (comments !== null) {
+        if (comments != null) {
             return (
                 <div className="col-12 col-md-5 m-1">
                     <h4>Comments</h4>
@@ -36,7 +36,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
     }
 
     const DishDetail = (props) => {
-        if (props.dish !== undefined) {
+        if (props.dish != undefined) {
             return(
                 <div className="container">
                     <div className="row">
