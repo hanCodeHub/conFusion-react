@@ -38,9 +38,9 @@ class Contact extends Component {
         e.preventDefault();
     }
 
-    handleBlur = (field) => (evt) => {
+    handleBlur = (field) => () => {
         this.setState({
-            touched: {...this.state.touched, [field]: true}
+            touched: {[field]: true}
         });
     }
 
