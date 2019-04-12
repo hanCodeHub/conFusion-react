@@ -45,7 +45,7 @@ import { Link } from 'react-router-dom';
             return(
                 <React.Fragment>
                     <Button onClick={this.toggleModal} outline color="secondary">
-                        Submit Comment
+                        <i className="fa fa-pencil fa-lg"></i> Submit Comment
                     </Button>
                     <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                         <ModalHeader toggle={this.toggleModal}>
